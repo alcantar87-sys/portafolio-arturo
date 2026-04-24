@@ -1,0 +1,33 @@
+{% extends "core/base.html" %}
+
+{% block content %}
+<h1>Proyectos</h1>
+
+<section class="projects-container">
+
+    <article class="project-card">
+        <h2>Automatización de carga de campañas</h2>
+        <p><strong>Problema:</strong> Procesos manuales para cargar información desde Excel.</p>
+        <p><strong>Solución:</strong> ETL en Python para limpiar, validar y cargar datos hacia MySQL.</p>
+        <p><strong>Tecnologías:</strong> Python, pandas, MySQL, openpyxl.</p>
+        <p><strong>Resultado:</strong> Mayor consistencia de datos y reducción de trabajo manual.</p>
+    </article>
+
+    <article class="project-card">
+        <h2>Dashboard de call center</h2>
+        <p><strong>Problema:</strong> Falta de visibilidad sobre productividad y operación.</p>
+        <p><strong>Solución:</strong> Diseño de KPIs y dashboard ejecutivo en Power BI.</p>
+        <p><strong>Tecnologías:</strong> SQL Server, Power BI, DAX.</p>
+        <p><strong>Resultado:</strong> Mejor análisis de tiempos, volumen y desempeño operativo.</p>
+    </article>
+
+    <article class="project-card">
+        <h2>Integración de datos con SSIS</h2>
+        <p><strong>Problema:</strong> Información dispersa en múltiples fuentes.</p>
+        <p><strong>Solución:</strong> Procesos ETL en SSIS para construir un Data Mart.</p>
+        <p><strong>Tecnologías:</strong> SSIS, SQL Server, Power BI.</p>
+        <p><strong>Resultado:</strong> Datos centralizados y listos para análisis de negocio.</p>
+    </article>
+
+</section>
+{% endblock %}
